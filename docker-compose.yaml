@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  keycloak-theme:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: keycloak-theme
+    image: jonginout/keycloak-theme:base
