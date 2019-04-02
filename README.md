@@ -1,6 +1,6 @@
 # keycloak-theme
 ### keycloak basic theme (docker image)
-you must change keycloak helm chart (values)
+you must change `keycloak helm chart` (values)
 ```
 keycloak:
   extraInitContainers: |
